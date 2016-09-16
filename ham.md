@@ -16,5 +16,3 @@ licensed amature radio operator contact your nearest club.
 
 I'm a member of [FURA](http://www.fura.se) and our national
 organisation [SSA](http://www.ssa.se).
-
-{% img scale /ham/images/masten12m.small.jpg "tower (12m)" %}
