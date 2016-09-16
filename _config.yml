@@ -1,0 +1,15 @@
+# Site settings
+title: fot.nu
+owner: Magnus Jonsson
+email: fot@fot.nu
+description: "This is the site of Magnus Jonsson aka Fot. This site contains notes about me and my life. My hobbies and work. It is more of an diary for my self then for others but feel free to surf around and see if you find anything usefull."
+baseurl: ""
+url: "http://fot.nu"
+# twitter_username: Xjekyllrb
+# github_username:  Xjekyll
+safe: no
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+

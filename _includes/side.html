@@ -1,0 +1,14 @@
+<ul class="side">
+{% for p in site.pages %}
+ {% if p.submenu %}
+   {% capture issubpage %}{{ p.url | subpage: page.dir }}{% endcapture %}
+   {% if issubpage == "yes" %}
+     {% if p.menutitle %}
+	<li><a href="{{ p.url }}">{{ p.menutitle }}</a></li>
+     {% else %}
+	<li><a href="{{ p.url }}">{{ p.title }}</a></li>
+     {% endif %}
+   {% endif %}
+ {% endif %}
+{% endfor %}
+</ul>
